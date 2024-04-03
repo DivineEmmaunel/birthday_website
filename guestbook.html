@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+  <link href="guestbook.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div>
+    <h2>
+      Guestbook
+    </h2>
+    <form id="guestbookForm">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" required><br>
+      <label for="message">Leave a Message:</label><br>
+      <textarea id="message" rows="4" required></textarea><br>
+      <button type="button" onclick="addMessage()">Submit</button>
+ <div id="messages">
+   <blockquote>
+     
+   </blockquote>
+ </div>     
+    </form>
+  </div>
+  <a href="index.html">
+  <button>Main</button>
+  <script src="guestbook.js"></script>
+</body>
+</html>

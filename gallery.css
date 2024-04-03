@@ -1,0 +1,17 @@
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .gallery-item {
+    margin: 10px;
+    overflow: hidden;
+    border: 2px solid#333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rga(0, 0, 0, 0.1);;
+  }
+  .gallery-item img{
+    width:100%;
+    height: auto;
+    display: block;
+  }
